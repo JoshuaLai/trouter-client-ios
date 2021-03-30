@@ -7,6 +7,7 @@ import PackageDescription
 let package = Package(
     name: "TrouterClientIos",
     platforms: [
+        .macOS(.v10_13),
         .iOS(.v12)
     ],
     products: [
